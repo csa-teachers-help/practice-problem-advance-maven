@@ -10,7 +10,7 @@ Selecting this button will give you options asking where you would like to fork 
 This assignment outlined below is an example of what is given to students (it is not a perfect 1:1 to what students are given).
 
 **Differences from basic**
-This version of the assignment uses Maven to create folder structure for the project.  It also includes unit tests that can be used as part of GitHub classroom autograding.
+This version of the assignment uses Maven to create folder structure for the project.  It also includes unit tests that can be used as part of GitHub classroom autograding. When setting up autograding on GitHub Classroom you should have the setup command as `mvn compile` and the run command as `mvn test`.  This will run all the test methods.  There are ways to single out certain methods to run.  That will be covered in a video and updated here once completed.
 
 # Counting Fierce
 >Backstory of assignment here for lore purposes.
